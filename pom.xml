@@ -26,4 +26,14 @@
             <version>2.1.0</version><!--2-->
         </dependency>
     </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>com.sun.xml.ws</groupId>
+                <artifactId>jaxws-maven-plugin</artifactId>
+                <version>4.0.0</version>
+            </plugin>
+        </plugins>
+    </build>
 </project>
