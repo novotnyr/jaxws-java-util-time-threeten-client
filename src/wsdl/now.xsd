@@ -1,0 +1,4 @@
+<schema xmlns="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="urn:example:now">
+    <element name="timeRequest" type="anyType" />
+    <element name="currentLocalDateTime" type="dateTime" />
+</schema>
