@@ -2,7 +2,8 @@
 <bindings version="3.0"
           xmlns="https://jakarta.ee/xml/ns/jaxb"
           xmlns:xjc="http://java.sun.com/xml/ns/jaxb/xjc"
-          xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+          xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="https://jakarta.ee/xml/ns/jaxb https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd">
     <globalBindings>
         <xjc:javaType
                 xmlType="xsd:dateTime"
